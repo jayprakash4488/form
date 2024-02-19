@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="media-queries.css"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    
+        <div class="register">
+            <h2>Registration Here</h2>
+            <form id="Registration" method="post"> 
+                <label> First Name :</label>
+                <br>
+                <input type="text" name="name"
+                id="name" class="name" placeholder=" First Name" >
+                <br><br>
+                <label > Last Name :</label>
+                <br>
+                <input type="text" name="name"
+                id="name" class=" name" placeholder="Last Name">
+                <br><br>
+                <label > Your age :</label>
+                <br>
+                <input type="text" name="age"
+                id="name" class="name" placeholder="How old are you?">
+                <br><br>
+                <label > email :</label>
+                <br>
+                <input type="email" name="email" class="email"
+                id="name" placeholder="Enter your valid email:">
+                <br><br>
+                <label > Gender :</label>
+                <br>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" value="male"
+                id="male">
+                &nbsp;
+                <span id="male"> male</span>
+                &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="gender"value="fmale" id="female" >
+                &nbsp;
+                <span id="female" > female</span>
+                <br><br>
+                <label> Known language:</label class="Known language">
+                <br>
+                &nbsp; &nbsp; &nbsp;
+               <input type="checkbox" name="lang" id="hindi" class="h">
+               &nbsp;
+               <span id="hindi"> hindi</span>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="checkbox" name="lang" id="eng"class="e" >
+                &nbsp;
+                <span id="eng"> english</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="lang" id="urdu" class="u">
+                &nbsp;
+                <span id="urdu">urdu</span>
+                <br><br>
+                <input type="submit" value="submit" name="submit" id="submit" class="submit">
+
+            </form action="connect.php" method="post">
+        </div>
+    </div>
+</body>
+</html>
